@@ -8,7 +8,7 @@ function calculateEllipse(){
     const ellipseHeightText=ellipseHeightInput.value;
     const height=parseFloat(ellipseHeightText)
 
-    const area= 0.5 * width * height;
+    const area= 3.14 * width * height;
 
     const areaSpan=document.getElementById('Ellipse-area')
     areaSpan.innerText=area;
